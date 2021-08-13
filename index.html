@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <meta name="description" content="Fiz este caoculador pro senhor pai :D">
+   
+   
+</head>
+<body onload="carregar()">
+   <header>
+      <h1>Calculadora de hora extra</h1>
+   </header>
+   <section>
+
+      <div id="foto">
+          <div>
+            <p>Salário base (bruto): <input type="number" name="" id="salario" value="2556"></p>
+            
+          </div>
+          <br>
+          <div>
+            <p>Jornada mensal (horas): <input type="number" name="" id="horasMensais" value="200"></p>
+            
+          </div>
+          <br>
+          <div>
+            <p>Hora extra: (100%) <input type="number" name="" id="horaExtra100"></p>
+            
+          </div>
+          <br>
+          <div>
+            <p>Hora extra: (50%) <input type="number" name="" id="horaExtra50"></p>
+            
+          </div>
+          <br>
+          <div>
+
+            <button id="calcular" class="btn" onclick="calcular()">
+                Calcular
+            </button>
+          <br>
+
+
+      </div>
+      <br>
+      <div id="imprimir" style="display: none;">
+        <h1>Calculadora de Hora Extra</h1>
+        
+        <table class="table table-bordered" style="margin-top: 10px;">
+        <thead>
+        <tr>
+        <th colspan="2" style="color: #1691DB;">Resultado do cálculo</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Salário base (bruto)</td>
+        <td id="salarioRes">R$</td>
+        </tr>
+        <tr>
+        <td>Valor da hora de trabalho</td>
+        <td id="horaTrabalhoRes">R$</td>
+        </tr>
+        <tr>
+        <td >Total de horas extras 50%</td>
+        <td id="horaExtra50Res">R$</td>
+        </tr>
+        <tr>
+        <td>Total de horas extras 100%</td>
+        <td id="horaExtra100Res">R$</td>
+        </tr>
+        <tr style="font-weight: bold;">
+        <td>Valor total de horas extras</td>
+        <td id="valorTotalExtra">R$</td>
+        </tr>
+
+        </tr>
+        </tbody>
+        </table>
+        </div> 
+   </section>
+   <footer>Wesley Queiroz Alencar <a href="https://fallgwecsteam.netlify.app/html/wesley.html">Mais sobre mim..</a></footer>
+   <script src="index.js"></script>
+</body>
+</html>

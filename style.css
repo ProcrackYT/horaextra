@@ -1,0 +1,163 @@
+header,footer{
+    color: white;
+    text-align: center;
+}
+
+
+
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width:fit-content; 
+    height:auto;
+    margin: auto;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+footer{
+    font-style: italic;
+}
+div {
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+table td {
+    border: 1px solid #ededed;
+    border-top-color: rgb(237, 237, 237);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(237, 237, 237);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(237, 237, 237);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(237, 237, 237);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    /* padding: 2px 8px; */
+}
+.table-bordered {
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    border-color: grey;
+    border-top-color: grey;
+    border-right-color: grey;
+    border-bottom-color: grey;
+    border-left-color: grey;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+
+}
+table th {
+    text-align: left;
+    border: 1px solid #ededed;
+    border-top-color: rgb(237, 237, 237);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(237, 237, 237);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(237, 237, 237);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(237, 237, 237);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding: 2px 8px;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+}
+ 
+.btn {
+    background-color: #008CBA;
+    border-radius: 5px;
+    font-size: 150%;
+}
+.btn:hover {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+background-color:#1e62d0;
+}.btn:active {
+position:relative;
+top:1px;
